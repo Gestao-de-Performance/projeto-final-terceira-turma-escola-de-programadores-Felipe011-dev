@@ -1,0 +1,99 @@
+
+.estilosumario
+{
+    display: flex;
+    font-family:sans-serif;
+    color: #054f81;
+    text-decoration: underline; ;
+    line-height: 1.5;
+}
+.estiloTexto
+{
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+    color: #054f81;
+    text-decoration: underline; ;
+    line-height: 1.5;
+}
+.estiloletra
+{
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
+    line-height: 2;
+    margin: 50;
+    text-decoration: none;
+}
+.estiloletraTitulo
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+.estiloTextoIntroduçao{
+    font-family:sans-serif;
+    color: #054f81;
+    text-decoration: underline; ;
+    line-height: 1.5;
+    position: relative;
+}
+.fotodeperfil
+{
+ position: relative;
+ 
+ border-radius: 50%;
+ filter: drop-shadow(1px 1px 20px rgb(255, 255, 255) ) ;
+ width: 20%;
+ 
+ 
+ transition: transform 0.2s;
+
+}
+.fotodeperfil:hover{
+    transform: scale(1.1);
+}
+.Contatos{
+    display: flex; 
+    gap: 40px;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 20px rgb(255, 255, 255));
+}
+a{
+    transition: transform 0.2s;
+}a:hover{
+    transform: scale(1.2);
+}
+.estiloBotoes{
+    background-color:rgba(119, 6, 243, 0) ;
+    filter: drop-shadow(1px 1px 20px rgb(153, 5, 238) ) ;
+    border-radius: 150px;
+    text-decoration: none;
+    transition: background-color 0.1 ease ;
+    transition: transform 0.2s;
+}
+.estiloBotoes:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+
+}
+
+.botaorodape{
+    background-color:rgba(119, 0, 255, 0.692) ;
+    filter: drop-shadow(1px 1px 20px x rgb(105, 5, 238) ) ;
+    border-radius: 150px;
+    text-decoration: none;
+    transition: background-color 0.1s ease;
+    transition: transform 0.2s;
+}
+.botaorodape:hover{
+background-color: blueviolet;
+transform: scale(1.1);
+}
+body{
+    background-image: url(img/imagemdefundo.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
